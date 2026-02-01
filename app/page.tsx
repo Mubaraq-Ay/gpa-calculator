@@ -303,7 +303,10 @@ export default function Home() {
               <span className="font-bold">GPA Calc</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Track your academic journey. Free and offline.
+              Track your academic journey. Free and offline. 
+            </p>
+            <p>
+              Built by Mubaraq
             </p>
           </div>
         </div>
