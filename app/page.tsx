@@ -305,7 +305,7 @@ export default function Home() {
             <p className="text-sm text-muted-foreground">
               Track your academic journey. Free and offline. 
             </p>
-            <p>
+            <p className='text-sm text-muted-foreground'>
               Built by Mubaraq
             </p>
           </div>
