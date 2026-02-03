@@ -104,7 +104,7 @@ export default function Home() {
             <span className="text-xl font-bold hidden sm:inline">GPA Calc</span>
           </div>
           <div className="flex items-center gap-4">
-            <ThemeToggle />
+            <ThemeToggle  />
             <Link href="/login">
               <Button variant="outline" size="sm" className='cursor-pointer'>
                 Sign In
