@@ -183,7 +183,7 @@ export default function Home() {
             {features.map((feature, idx) => {
               const Icon = feature.icon;
               return (
-                <div key={idx} className="bg-card border border-border rounded-lg p-6 hover:border-primary/50 transition-colors">
+                <div key={idx} className="bg-card border border-border rounded-lg p-6 hover:border-primary/50 transition-colors cursor-pointer">
                   <Icon className="w-8 h-8 text-primary mb-4" />
                   <h3 className="font-semibold text-lg mb-2">{feature.title}</h3>
                   <p className="text-muted-foreground text-sm">{feature.description}</p>
