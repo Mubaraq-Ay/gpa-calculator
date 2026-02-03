@@ -131,7 +131,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/signup">
-                <Button size="lg" className="w-full sm:w-auto">
+                <Button size="lg" className="w-full sm:w-auto" className='cursor-pointer'>
                   Start Free
                   <ChevronRight className="w-4 h-4 ml-2" />
                 </Button>
