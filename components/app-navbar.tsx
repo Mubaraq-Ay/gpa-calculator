@@ -79,7 +79,7 @@ export function AppNavbar() {
 
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" size="icon" className="rounded-full">
+                  <Button variant="ghost" size="icon" className="rounded-full curs">
                     <Avatar className="h-8 w-8">
                       <AvatarFallback className="text-xs font-bold bg-primary text-primary-foreground">
                         {user?.name?.charAt(0).toUpperCase() || 'U'}
