@@ -137,7 +137,7 @@ export default function Home() {
                 </Button>
               </Link>
               <Link href="/login">
-                <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent">
+                <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent cursor-pointer">
                   Sign In
                 </Button>
               </Link>
