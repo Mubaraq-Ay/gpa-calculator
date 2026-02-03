@@ -119,18 +119,20 @@ export default function LoginPage() {
             <Button
               type="submit"
               disabled={loading}
-              className="w-full mt-6 bg-primary text-primary-foreground hover:bg-primary/90 font-medium"
+              className="w-full mt-6 bg-primary text-primary-foreground hover:bg-primary/90 font-medium cursor-pointer"
             >
               {loading ? 'Signing in...' : 'Sign In'}
             </Button>
           </form>
+
+          {/* i go soon commot this egbon  */}
 
           <div className="mt-4">
             <Button
               type="button"
               variant="outline"
               onClick={handleDemoLogin}
-              className="w-full border-border text-foreground hover:bg-muted bg-transparent"
+              className="w-full border-border text-foreground hover:bg-muted bg-transparent cursor-pointer"
             >
               Try Demo Account
             </Button>
