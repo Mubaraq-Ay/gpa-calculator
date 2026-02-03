@@ -284,7 +284,7 @@ export default function Home() {
             Join Nigerian students tracking their academic journey
           </p>
           <Link href="/signup">
-            <Button size="lg" className="gap-2">
+            <Button size="lg" className="gap-2 cursor-pointer">
               Get Started Free
               <ChevronRight className="w-4 h-4" />
             </Button>
