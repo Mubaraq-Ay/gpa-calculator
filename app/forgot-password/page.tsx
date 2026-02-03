@@ -44,7 +44,7 @@ export default function ForgotPasswordPage() {
       <div className="w-full max-w-md">
         <div className="flex items-center justify-center mb-8 gap-2">
           <BookOpen className="h-8 w-8 text-primary" />
-          <h1 className="text-3xl font-bold text-foreground">GPA Calc</h1>
+          <h1 className="text-3xl font-bold text-foreground cursor-pointer">GPA Calc</h1>
         </div>
 
         <Card className="p-8 border border-border">
@@ -76,7 +76,7 @@ export default function ForgotPasswordPage() {
               <Button
                 type="submit"
                 disabled={loading}
-                className="w-full mt-6 bg-primary text-primary-foreground hover:bg-primary/90 font-medium"
+                className="w-full mt-6 bg-primary text-primary-foreground hover:bg-primary/90 font-medium cursor-pointer" 
               >
                 {loading ? 'Sending...' : 'Send Reset Link'}
               </Button>

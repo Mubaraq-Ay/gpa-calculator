@@ -102,7 +102,7 @@ export default function LoginPage() {
                   href="/forgot-password"
                   className="text-xs text-primary hover:underline"
                 >
-                  Forgot?
+                  Forgot Password?
                 </Link>
               </div>
               <Input
