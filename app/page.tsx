@@ -101,7 +101,7 @@ export default function Home() {
             <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
               <Calculator className="w-6 h-6 text-primary-foreground" />
             </div>
-            <span className="text-xl font-bold hidden sm:inline">GPA Calc</span>
+            <Link href='/' className="text-xl font-bold hidden sm:inline cursor-pointer">GPA Calc</Link>
           </div>
           <div className="flex items-center gap-4">
             <ThemeToggle  />
