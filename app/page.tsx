@@ -106,7 +106,7 @@ export default function Home() {
           <div className="flex items-center gap-4">
             <ThemeToggle />
             <Link href="/login">
-              <Button variant="outline" size="sm">
+              <Button variant="outline" size="sm" className='cursor-pointer'>
                 Sign In
               </Button>
             </Link>
