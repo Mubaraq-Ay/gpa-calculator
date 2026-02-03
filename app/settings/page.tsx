@@ -164,7 +164,7 @@ export default function SettingsPage() {
                       <button
                         key={scale}
                         onClick={() => setScaleType(scale)}
-                        className={`p-4 rounded-lg border-2 transition-all text-center ${
+                        className={`p-4 rounded-lg border-2 transition-all text-center cursor-pointer ${
                           scaleType === scale
                             ? 'border-primary bg-primary/10'
                             : 'border-border hover:border-primary/50'
@@ -183,7 +183,7 @@ export default function SettingsPage() {
 
                 <Button
                   onClick={handleSaveGradeScale}
-                  className="bg-primary text-primary-foreground hover:bg-primary/90"
+                  className="bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer"
                 >
                   Save Grade Scale
                 </Button>

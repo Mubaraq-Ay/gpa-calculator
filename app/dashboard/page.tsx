@@ -101,7 +101,7 @@ export default function DashboardPage() {
               Start tracking your GPA by adding your first semester and courses.
             </p>
             <Link href="/dashboard?add-semester=true">
-              <Button className="bg-primary text-primary-foreground hover:bg-primary/90">
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer">
                 <Plus className="h-4 w-4 mr-2" />
                 Add First Semester
               </Button>

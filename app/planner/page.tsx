@@ -163,7 +163,7 @@ export default function PlannerPage() {
                     <Button
                       size="sm"
                       onClick={handleSaveTarget}
-                      className="bg-primary text-primary-foreground hover:bg-primary/90"
+                      className="bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer"
                     >
                       Save
                     </Button>
