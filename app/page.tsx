@@ -111,7 +111,7 @@ export default function Home() {
               </Button>
             </Link>
             <Link href="/signup">
-              <Button size="sm">
+              <Button size="sm" className='cursor-pointer'>
                 Get Started
               </Button>
             </Link>
