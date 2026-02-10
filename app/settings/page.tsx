@@ -130,16 +130,16 @@ export default function SettingsPage() {
 
         <Tabs defaultValue="grading" className="space-y-6">
           <TabsList className="grid w-full grid-cols-4 bg-muted">
-            <TabsTrigger value="grading" className="text-foreground">
+            <TabsTrigger value="grading" className="text-foreground cursor-pointer">
               Grading
             </TabsTrigger>
-            <TabsTrigger value="policies" className="text-foreground">
+            <TabsTrigger value="policies" className="text-foreground cursor-pointer">
               Policies
             </TabsTrigger>
-            <TabsTrigger value="goals" className="text-foreground">
+            <TabsTrigger value="goals" className="text-foreground cursor-pointer">
               Goals
             </TabsTrigger>
-            <TabsTrigger value="data" className="text-foreground">
+            <TabsTrigger value="data" className="text-foreground cursor-pointer">
               Data
             </TabsTrigger>
           </TabsList>

@@ -70,14 +70,11 @@ export default function Home() {
       q: 'What grade scales are supported?',
       a: 'We support Nigerian 5.0 scale (default) and US 4.0 scale. You can also customize your own grade mapping.'
     },
-    {
-      q: 'Is my data safe?',
-      a: 'Your data is stored locally on your device. No data is sent to any server. You have full control.'
-    },
-    {
-      q: 'Can I use this offline?',
-      a: 'Yes! The app works completely offline. All features are available without internet connection.'
-    },
+   
+    // {
+    //   q: 'Can I use this offline?',
+    //   a: 'Yes! The app works completely offline. All features are available without internet connection.'
+    // },
     {
       q: 'How do I handle course retakes?',
       a: 'Choose between replacing the old grade or keeping both grades. This is configurable in settings.'
@@ -275,7 +272,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gradient-to-r from-primary/10 via-transparent to-accent/10 py-20 sm:py-32 border-t border-border">
+      <section className="bg-gradient-to-l from-primary/10 via-transparent to-accent/10 py-20 sm:py-32 border-t border-border">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-balance">
             Ready to take control of your academics?
@@ -306,7 +303,7 @@ export default function Home() {
               Track your academic journey. Free and offline. 
             </p>
             <p className='text-sm text-muted-foreground'>
-              Built by Mubaraq
+              Built by <a href="#" target='_blank'>Mubaraq</a>
             </p>
           </div>
         </div>
