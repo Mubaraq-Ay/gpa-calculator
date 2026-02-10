@@ -116,7 +116,7 @@ export default function ProfilePage() {
                   onClick={() => setIsEditing(!isEditing)}
                   variant="outline"
                   size="sm"
-                  className="border-border text-foreground hover:bg-muted"
+                  className="border-border text-foreground hover:bg-muted cursor-pointer"
                 >
                   {isEditing ? 'Cancel' : 'Edit Profile'}
                 </Button>
@@ -215,14 +215,14 @@ export default function ProfilePage() {
             <div className="space-y-3">
               <Button
                 variant="outline"
-                className="w-full border-border text-foreground hover:bg-muted justify-start bg-transparent"
+                className="w-full border-border text-foreground hover:bg-muted justify-start bg-transparent cursor-pointer"
                 onClick={() => window.location.href = '/settings'}
               >
                 <span>Go to Settings</span>
               </Button>
               <Button
                 variant="outline"
-                className="w-full border-border text-foreground hover:bg-muted justify-start bg-transparent"
+                className="w-full border-border text-foreground hover:bg-muted justify-start bg-transparent cursor-pointer"
                 onClick={() => window.location.href = '/dashboard'}
               >
                 <span>Back to Dashboard</span>
@@ -240,7 +240,7 @@ export default function ProfilePage() {
             </p>
             <Button
               onClick={handleLogout}
-              className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
+              className="bg-destructive text-destructive-foreground hover:bg-destructive/90 cursor-pointer"
             >
               <LogOut className="h-4 w-4 mr-2" />
               Sign Out

@@ -263,7 +263,7 @@ export default function SettingsPage() {
 
                 <Button
                   onClick={handleSaveRetakePolicy}
-                  className="bg-primary text-primary-foreground hover:bg-primary/90"
+                  className="bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer"
                 >
                   Save Retake Policy
                 </Button>
@@ -305,7 +305,7 @@ export default function SettingsPage() {
 
                 <Button
                   onClick={handleSaveTargetCGPA}
-                  className="bg-primary text-primary-foreground hover:bg-primary/90"
+                  className="bg-primary text-primary-foreground hover:bg-primary/90 cursor-pointer"
                 >
                   Save Target
                 </Button>
@@ -347,7 +347,7 @@ export default function SettingsPage() {
                   <Button
                     onClick={handleExportData}
                     variant="outline"
-                    className="border-border text-foreground hover:bg-muted h-auto flex items-center justify-start gap-3 p-4 bg-transparent"
+                    className="border-border text-foreground hover:bg-muted h-auto flex items-center justify-start gap-3 p-4 bg-transparent cursor-pointer"
                   >
                     <Download className="h-5 w-5" />
                     <div className="text-left">
@@ -414,7 +414,7 @@ export default function SettingsPage() {
               </p>
               <Button
                 variant="outline"
-                className="border-destructive text-destructive hover:bg-destructive/10 bg-transparent"
+                className="border-destructive text-destructive hover:bg-destructive/10 bg-transparent cursor-pointer"
                 disabled
               >
                 Clear All Data (Coming Soon)
